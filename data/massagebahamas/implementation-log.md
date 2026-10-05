@@ -79,3 +79,85 @@ Main findings:
 - website/booking links should point to MassageBahamas.com with UTM tracking;
 - mobile/hotel/villa/yacht service intent should be explicit in services and posts;
 - first eight GBP posts are mapped to canonical owner pages.
+
+
+## 2026-10-04 — Google Business Profile implementation
+
+Connected account:
+- Tranquilitas Spa – Nassau, The Bahamas
+- Google Business Profile location id: locations/4029371443091886145
+
+### Approved changes applied
+
+#### Business description
+Replaced the mobile-heavy legacy description with a balanced description covering:
+- in-spa massage;
+- mobile massage;
+- Collins Avenue spa;
+- Nassau and Paradise Island;
+- Swedish, deep tissue, Bahama Bliss, couples massage;
+- facials and spa treatments;
+- hotel, villa, residence and yacht service;
+- corporate wellness, group bookings and private events.
+
+#### GBP services
+Replaced the prior four-item list with 24 services.
+
+Existing items preserved:
+- Body waxing
+- Hairstyling
+- Skin treatments
+- Chemical peel
+
+Added:
+- Swedish Massage
+- Deep Tissue Massage
+- Bahama Bliss Massage
+- Sports Massage
+- Couples Massage
+- Four Hands Massage
+- Reflexology
+- Lymphatic Drainage Massage
+- Express Massage
+- Coconut Wave Massage
+- Seashell Sensation Massage
+- Mobile Massage
+- Hotel & Villa Massage
+- Yacht Massage
+- Beach Massage
+- Corporate Chair Massage
+- Customized Enzyme Facial
+- Men's Facial
+- Anti-Aging Facial
+- Wedding Glow Facial
+
+Prices were intentionally omitted from GBP service items so the profile does not become stale when website pricing changes.
+
+#### GBP posts
+Published two posts with separate tracked destinations.
+
+1. Mobile Massage Nassau
+   - destination: https://www.massagebahamas.com/mobile-services
+   - campaign: gbp
+   - content: mobile-massage-oct-01
+   - CTA: BOOK
+   - status at creation: PROCESSING
+
+2. Collins Avenue / In-Spa Services
+   - destination: https://www.tranquilitasspa.com/services
+   - campaign: gbp
+   - content: in-spa-oct-01
+   - CTA: LEARN_MORE
+   - status at creation: PROCESSING
+
+### Explicitly left unchanged
+
+- GBP website URL: https://tranquilitasspa.com/
+- GBP menu URL: https://www.tranquilitasspa.com/services
+- categories
+- hours
+- business name
+- address
+- phone
+
+Reason: maintain both TranquilitasSpa.com and MassageBahamas.com as active properties instead of migrating the GBP website link to one domain.
